@@ -54,6 +54,7 @@ font-family: 'Antic Didone', serif;
 
 	--primary-font: 'Lexend Exa', sans-serif;
 	--secondary-font: 'Questrial', sans-serif;
+	--third-font: 'Avenir', sans-serif;
 	--main-text-color: #003;
 
 	--white-space: 2rem;
@@ -71,6 +72,8 @@ footer {
 	margin: 0 auto;
 	padding: calc(2*var(--white-space));
 }
+
+
 
 .full-width {
 	background: var(--bg-color);
@@ -109,6 +112,10 @@ main {
 
 section {
 	margin-bottom: calc(2*var(--white-space));
+}
+
+.font-name2 {
+	font-family: var(--primary-font);
 }
 
 .section-heading {
