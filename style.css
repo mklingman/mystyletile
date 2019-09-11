@@ -206,15 +206,15 @@ ul li:last-child {
 */
 
 .texture-swatch-2 {
-	background: url(../img/twombly.jpg) top left repeat;
+	background: url(img/twombly.jpg) top left repeat;
 }
 
 .texture-swatch-1 {
-	background: url(../img/wall.jpg) top left repeat;
+	background: url(img/wall.jpg) top left repeat;
 }
 
 .texture-swatch-3 {
-	background: url(../img/whitewall.jpg) top left repeat;
+	background: url(img/whitewall.jpg) top left repeat;
 }
 
 button {
