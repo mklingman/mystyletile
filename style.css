@@ -321,10 +321,31 @@ footer {
 	background-color: #000;
 	display: flex;
 	flex-direction: column-reverse;
-	padding: calc(1*var(--white-space)
+	padding: calc(1*var(--white-space));
 }
 
 
+/*modal work is all below here*/
+
+
+
+.modal-background {
+	position: fixed;
+	z-index: 10;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+	background-color: #fefefe;
+	border: 1px solid #7c1f17;
+	margin: 1em;
+	padding: 2em;
+
+}
 
 
 
@@ -351,32 +372,4 @@ footer {
 	.adjectives ul {
 		flex-direction: row;
 	}
-}
-
-
-
-
-
-/*modal work is all below here*/
-
-.hide {
-	display: none;
-}
-
-.modal-background {
-	position: fixed;
-	z-index: 10;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	background-color: rgba(0, 0, 0, 0.7);
-}
-
-.modal-content {
-	background-color: #fefefe;
-	border: 1px solid #7c1f17;
-	margin: 1em;
-	padding: 2em;
-
 }
