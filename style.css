@@ -288,6 +288,18 @@ a:hover {
 	color: var(--link-hover-color);
 }
 
+
+
+.pichov:hover {
+	cursor: pointer;
+}
+
+.pichov {
+	padding-left: .6rem;
+
+}
+
+
 p[class*="font-details-"] {
 	margin-top: .5rem;
 	margin-bottom: calc(2*var(--white-space));
@@ -313,6 +325,8 @@ p[class*="font-details-"] {
 footer {
 	/*	font-style: italic;*/
 	background-color: #000;
+	display: flex;
+	flex-direction: column-reverse;
 }
 
 @media (min-width:800px) {
